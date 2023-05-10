@@ -1,0 +1,53 @@
+p{
+  font-family: Roboto;  
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vid_title{
+   font-weight: bold;
+   font-size: 18px;
+   width: 300px;
+   line-height: 24px;
+   margin-bottom: 5px;
+}
+
+.vid_stats{
+    font-size: 14px;
+    color: rgb(126, 125, 125);
+    margin-bottom: 20px;
+}
+
+.vid_auth{
+    color:  rgb(126, 125, 125);
+    font-size: 14px;
+}
+
+.vid_dis{
+    font-size: 14px;
+    color:  rgb(126, 125, 125);
+    margin-top: 20px;
+    width: 275px;
+    line-height: 20px;
+}
+
+.shop{
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.shopNow:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shopNow{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            p{
+                font-family: Roboto, Arial;
+            }
+            .thumbnail{
+                width: 300px;
+                display: block;
+            }
+
+            .search_bar{
+                display:block;
+            }
+
+            .vid_preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right:15px;
+            }
+
+            .profile_pic{
+                display: inline-block;
+                width:50px;
+                vertical-align: top;
+            }
+
+            .vid_info{
+                display: inline-block;
+                width: 200px;
+            }
+
+            .pro-pic{
+                width:40px;
+                border-radius: 25px;
+            }
+
+            .vid_title{
+                margin-top: 0px ;  
+                font-size: 14px; 
+                font-weight: 700;
+                line-height: 20px;
+            }
+
+            .thumbnail_row{
+                margin-bottom: 12px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <input class="search_bar" type="text" placeholder="search">
+        
+        <div class="vid_preview">
+            <div class="thumbnail_row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class="profile_pic">
+                    <img class="pro-pic" src="profile pics/channel-1.jpeg">
+                </div>
+                <div class="vid_info">
+                    <p class="vid_title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="vid_auth">Marques Brownlee</p>
+                <p class="vid_stats">3.4M views &#183; 6 months ago</p>
+                </div>
+                
+            </div>    
+           
+        </div>
+
+        <div class="vid_preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <p class="vid_title">Try Not to Laugh Challenge #9</p>
+            <p class="vid_auth">Markiplier</p>
+            <p class="vid_stats">19M views &#183; 4 years ago</p>
+        </div>
+    </body>
+</html>
