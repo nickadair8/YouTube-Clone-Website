@@ -3,73 +3,31 @@
     <head>
         <title>Youtube Clone</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <style>
-            p{
-                font-family: Roboto, Arial;
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-            .thumbnail{
-                width: 100%;
-            }
-
-            .search_bar{
-                display:block;
-            }
-
-
-            .video-info-grid{
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-
-
-            .pro-pic{
-                width:40px;
-                border-radius: 25px;
-            }
-
-            .vid_title{
-                margin-top: 0px ;  
-                font-size: 14px; 
-                font-weight: 700;
-                line-height: 20px;
-                margin-bottom: 12px;
-            }
-
-            .thumbnail_row{
-                margin-bottom: 12px;
-                margin-top: 10px; 
-            }
-            
-            .vid_auth,
-            .vid_stats{
-                font-size: 12px;
-                color:rgb(96, 96, 96);
-
-            }
-
-            .vid_auth{
-                margin-bottom: 4px;
-            }
-
-            .video-grid{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 16px;
-                row-gap: 40px;
-            }
-
-
-        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
     </head>
     <body>
-        <div class="header"></div>
+        <div class="header">
+            <div class="left_section"><img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle_section">
+                <input class="search_bar" type="text" placeholder="search">
+                <button class="search"><img class="search-icon" src="icons/search.svg"></button>
+                <button class="voice-search"><img class="voice-search-icon" src="icons/voice-search-icon.svg"></button>
+            </div>
+            <div class="right_section">
+                <img class="upload-icon" src="icons/upload.svg">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <img class="channel-icon" src="profile pics/my-channel.jpeg">
+            </div>
+            
+        </div>
 
-        <input class="search_bar" type="text" placeholder="search">
-        
         <div class="video-grid">
             <div class="vid_preview">
                 <div class="thumbnail_row">
